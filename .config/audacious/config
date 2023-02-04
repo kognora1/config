@@ -1,0 +1,10 @@
+
+[audgui]
+filesel_path=/run/media/kognora/Files/Music
+
+[notify]
+actions=FALSE
+
+[qtui]
+player_height=1046
+player_width=1918

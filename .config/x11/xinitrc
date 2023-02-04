@@ -1,0 +1,17 @@
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+feh --no-fehbg --bg-scale '/home/kognora/.config/wallpaper.jpg' 
+
+picom & 
+
+sxhkd &
+
+dunst &
+
+slstatus &
+
+clipmenud &
+
+libreddit &
+
+exec /home/kognora/.local/bin/restartdwm 

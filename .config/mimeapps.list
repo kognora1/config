@@ -1,0 +1,10 @@
+[Default Applications]
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop
+image/jpeg=sxiv.desktop
+text/plain=nvim.desktop
+
+[Added Associations]
+application/pdf=org.pwmt.zathura-pdf-poppler.desktop;
+image/jpeg=sxiv.desktop;
+text/plain=nvim.desktop;
+application/octet-stream=sublime_text.desktop;

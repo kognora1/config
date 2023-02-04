@@ -1,0 +1,32 @@
+XF86AudioRaiseVolume
+	changevolume up
+
+XF86AudioLowerVolume
+	changevolume down
+
+XF86AudioMute
+	changevolume mute
+
+XF86MonBrightnessUp
+	changebrightness up
+
+XF86MonBrightnessDown
+	changebrightness down
+
+super + t
+	telegram-desktop
+
+super + e
+	pcmanfm
+	
+super + shift + l
+	slock
+
+super + v
+	clipmenu
+	
+super + shift + s
+	flameshot gui
+
+super + shift + p
+	~/.local/bin/dmenu_powermenu
