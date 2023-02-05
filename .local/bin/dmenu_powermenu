@@ -23,7 +23,7 @@ case $select in
 		systemctl reboot
 		;;
 	$lock)
-		slock
+		betterlockscreen -l
 		;;
 	$logout)
 		kill -TERM dwmpid $dwm_pid
