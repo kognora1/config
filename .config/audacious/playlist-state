@@ -1,7 +1,8 @@
 active 0
 playing 0
 playlist 0
-position 0
-shuffle 0
+position 192
+shuffle 0,6,50,74,79,81,82,83,84,103,104,109,110,111,112,113
+shuffle 99,100,192
 resume-state 1
-resume-time 94387
+resume-time 71260

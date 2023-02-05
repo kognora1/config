@@ -1,20 +1,21 @@
 {
 	"file_history":
 	[
+		"/home/kognora/.config/sxhkd/sxhkdrc",
+		"/home/kognora/.config/dunst/dunstrc",
+		"/home/kognora/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
+		"/home/kognora/.config/sublime-text/Packages/User/Preferences.sublime-settings",
+		"/home/kognora/.src/dwm/config.h",
+		"/home/kognora/.src/st/config.h",
 		"/home/kognora/tmp/st/config.def.h",
 		"/home/kognora/.local/bin/install scripts/install-apps",
 		"/home/kognora/.src/aslstatus/config.h",
-		"/home/kognora/.config/sublime-text/Packages/Default/Preferences.sublime-settings",
-		"/home/kognora/.config/sublime-text/Packages/User/Preferences.sublime-settings",
 		"/home/kognora/.src/slstatus/config.h",
-		"/home/kognora/.config/sxhkd/sxhkdrc",
 		"/home/kognora/tmp/dwm/config.def.h.rej",
 		"/home/kognora/tmp/dwm/config.h",
-		"/home/kognora/.src/dwm/config.h",
 		"/home/kognora/.src/slstatus/commands/sb-internet",
 		"/home/kognora/.config/user-dirs.dirs",
 		"/home/kognora/Downloads/st/config.def.h",
-		"/home/kognora/.src/st/config.h",
 		"/home/kognora/Downloads/st/config.h",
 		"/home/kognora/tmp/dwm/config.def.h",
 		"/home/kognora/Downloads/dwm/config.h",
@@ -31,17 +32,17 @@
 	],
 	"folder_history":
 	[
+		"/home/kognora",
 		"/home/kognora/.src",
 		"/home/kognora/.local",
 		"/home/kognora/.src/dwm",
 		"/home/kognora/tmp/dwm",
 		"/home/kognora/.src/slstatus/commands",
-		"/home/kognora",
 		"/home/kognora/.config",
 		"/home/kognora/.local/bin"
 	],
 	"last_version": 4143,
-	"last_window_id": 15,
+	"last_window_id": 18,
 	"log_indexing": false,
 	"next_update_check": 1675638274,
 	"settings":
@@ -52,7 +53,7 @@
 		"new_window_position":
 		[
 			1.0,
-			33.0
+			61.0
 		],
 		"new_window_settings":
 		{
@@ -105,14 +106,15 @@
 			},
 			"file_history":
 			[
+				"/home/kognora/.config/sxhkd/sxhkdrc",
+				"/home/kognora/.config/dunst/dunstrc",
+				"/home/kognora/.src/dwm/config.h",
 				"/home/kognora/tmp/st/config.def.h",
 				"/home/kognora/.local/bin/install scripts/install-apps",
 				"/home/kognora/.src/aslstatus/config.h",
 				"/home/kognora/.src/slstatus/config.h",
-				"/home/kognora/.config/sxhkd/sxhkdrc",
 				"/home/kognora/tmp/dwm/config.def.h.rej",
 				"/home/kognora/tmp/dwm/config.h",
-				"/home/kognora/.src/dwm/config.h",
 				"/home/kognora/.src/slstatus/commands/sb-internet",
 				"/home/kognora/Downloads/st/config.def.h",
 				"/home/kognora/.src/st/config.h",
@@ -132,7 +134,7 @@
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -146,6 +148,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"color"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -164,7 +167,7 @@
 			},
 			"incremental_find":
 			{
-				"height": 41.0
+				"height": 36.0
 			},
 			"input":
 			{
@@ -178,7 +181,7 @@
 			"pinned_build_system": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -212,7 +215,7 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 342.0,
+			"side_bar_width": 290.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
@@ -231,236 +234,6 @@
 			},
 			"buffers":
 			[
-				{
-					"file": "/home/kognora/.src/st/config.h",
-					"settings":
-					{
-						"buffer_size": 25025,
-						"encoding": "UTF-8",
-						"line_ending": "Unix"
-					},
-					"undo_stack":
-					[
-						[
-							3,
-							1,
-							"left_delete",
-							null,
-							"AQAAAM0OAAAAAAAAzQ4AAAAAAAABAAAAOQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM4OAAAAAAAAzg4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							4,
-							1,
-							"insert",
-							{
-								"characters": "89"
-							},
-							"AgAAAM0OAAAAAAAAzg4AAAAAAAAAAAAAzg4AAAAAAADPDgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM0OAAAAAAAAzQ4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							5,
-							1,
-							"left_delete",
-							null,
-							"AQAAAM4OAAAAAAAAzg4AAAAAAAABAAAAOQ",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAM8OAAAAAAAAzw4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							8,
-							1,
-							"left_delete",
-							null,
-							"AQAAAOsOAAAAAAAA6w4AAAAAAAABAAAAOA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOwOAAAAAAAA7A4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							9,
-							1,
-							"insert",
-							{
-								"characters": "9"
-							},
-							"AQAAAOsOAAAAAAAA7A4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAOsOAAAAAAAA6w4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							12,
-							1,
-							"left_delete",
-							null,
-							"AQAAAEcPAAAAAAAARw8AAAAAAAABAAAAOA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEgPAAAAAAAASA8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							13,
-							1,
-							"insert",
-							{
-								"characters": "9"
-							},
-							"AQAAAEcPAAAAAAAASA8AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAEcPAAAAAAAARw8AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							22,
-							1,
-							"paste",
-							null,
-							"AgAAABsOAAAAAAAAIA4AAAAAAAAAAAAAIA4AAAAAAAAgDgAAAAAAAAYAAAAzMDM0NDY",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABsOAAAAAAAAIQ4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							24,
-							1,
-							"left_delete",
-							null,
-							"AQAAABoOAAAAAAAAGg4AAAAAAAABAAAAIw",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAABsOAAAAAAAAGw4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							31,
-							1,
-							"paste",
-							null,
-							"AgAAADQOAAAAAAAAOg4AAAAAAAAAAAAAOg4AAAAAAAA6DgAAAAAAAAcAAAAjQzZEMEY1",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADsOAAAAAAAANA4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							34,
-							1,
-							"paste",
-							null,
-							"AgAAANcNAAAAAAAA3g0AAAAAAAAAAAAA3g0AAAAAAADeDQAAAAAAAAcAAAAjYWRkOGU2",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAN4NAAAAAAAA1w0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							44,
-							1,
-							"paste",
-							null,
-							"AgAAAPgNAAAAAAAA/g0AAAAAAAAAAAAA/g0AAAAAAAD+DQAAAAAAAAYAAAA1NTU1NTU",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAPgNAAAAAAAA/g0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							47,
-							3,
-							"left_delete",
-							null,
-							"AwAAADwMAAAAAAAAPAwAAAAAAAABAAAAOTsMAAAAAAAAOwwAAAAAAAABAAAALjoMAAAAAAAAOgwAAAAAAAABAAAAMA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAD0MAAAAAAAAPQwAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							48,
-							1,
-							"insert",
-							{
-								"characters": "2"
-							},
-							"AQAAADoMAAAAAAAAOwwAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADoMAAAAAAAAOgwAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							49,
-							1,
-							"left_delete",
-							null,
-							"AQAAADoMAAAAAAAAOgwAAAAAAAABAAAAMg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADsMAAAAAAAAOwwAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							50,
-							1,
-							"insert",
-							{
-								"characters": "12"
-							},
-							"AgAAADoMAAAAAAAAOwwAAAAAAAAAAAAAOwwAAAAAAAA8DAAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADoMAAAAAAAAOgwAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							51,
-							1,
-							"left_delete",
-							null,
-							"AQAAADsMAAAAAAAAOwwAAAAAAAABAAAAMg",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAADwMAAAAAAAAPAwAAAAAAAAAAAAAAADwvw"
-						],
-						[
-							57,
-							1,
-							"paste",
-							null,
-							"AgAAAMgMAAAAAAAAHA0AAAAAAAAAAAAAHA0AAAAAAAAcDQAAAAAAAF4AAAAiIzUxNTc2RCIsCgkiI0U3ODI4NCIsCgkiI0E2RDE4OSIsCgkiI0U1Qzg5MCIsCgkiIzhDQUFFRSIsCgkiI0Y0QjhFNCIsCgkiIzgxQzhCRSIsCgkiI0I1QkZFMiIs",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAMgMAAAAAAAAJg0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							60,
-							1,
-							"paste",
-							null,
-							"AgAAAB4NAAAAAAAAbw0AAAAAAAAAAAAAbw0AAAAAAABvDQAAAAAAAF4AAAAiIzYyNjg4MCIsCgkiI0U3ODI4NCIsCgkiI0E2RDE4OSIsCgkiI0U1Qzg5MCIsCgkiIzhDQUFFRSIsCgkiI0Y0QjhFNCIsCgkiIzgxQzhCRSIsCgkiI0E1QURDRSIs",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAB4NAAAAAAAAfA0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							61,
-							1,
-							"insert",
-							{
-								"characters": "\n"
-							},
-							"AgAAAG8NAAAAAAAAcA0AAAAAAAAAAAAAcA0AAAAAAABxDQAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAG8NAAAAAAAAbw0AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							68,
-							1,
-							"insert",
-							{
-								"characters": "#FFFF"
-							},
-							"BwAAAAMOAAAAAAAABA4AAAAAAAAAAAAABA4AAAAAAAAEDgAAAAAAAAUAAABibGFja3ANAAAAAAAAcA0AAAAAAAABAAAACQMOAAAAAAAABA4AAAAAAAAAAAAABA4AAAAAAAAFDgAAAAAAAAAAAAAFDgAAAAAAAAYOAAAAAAAAAAAAAAYOAAAAAAAABw4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAMOAAAAAAAACA4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							69,
-							1,
-							"insert",
-							{
-								"characters": "FF"
-							},
-							"AgAAAAcOAAAAAAAACA4AAAAAAAAAAAAACA4AAAAAAAAJDgAAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAAcOAAAAAAAABw4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							90,
-							1,
-							"paste",
-							null,
-							"AgAAAB4OAAAAAAAAJQ4AAAAAAAAAAAAAJQ4AAAAAAAAlDgAAAAAAAAYAAABncmF5OTA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAAB4OAAAAAAAAJA4AAAAAAAAAAAAAAADwvw"
-						],
-						[
-							97,
-							1,
-							"insert",
-							{
-								"characters": "000000"
-							},
-							"BwAAAB8OAAAAAAAAIA4AAAAAAAAAAAAAIA4AAAAAAAAgDgAAAAAAAAYAAABGRkZGRkYgDgAAAAAAACEOAAAAAAAAAAAAACEOAAAAAAAAIg4AAAAAAAAAAAAAIg4AAAAAAAAjDgAAAAAAAAAAAAAjDgAAAAAAACQOAAAAAAAAAAAAACQOAAAAAAAAJQ4AAAAAAAAAAAAA",
-							"AwAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPC/AAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA8L8AAAAAAQAAACUOAAAAAAAAHw4AAAAAAAAAAAAAAADwvw"
-						]
-					]
-				},
-				{
-					"file": "/home/kognora/.src/dwm/config.h",
-					"settings":
-					{
-						"buffer_size": 6925,
-						"line_ending": "Unix"
-					}
-				}
 			],
 			"build_system": "",
 			"build_system_choices":
@@ -504,21 +277,17 @@
 				"side_bar_visible": false,
 				"status_bar_visible": false
 			},
-			"expanded_folders":
-			[
-				"/home/kognora/.src",
-				"/home/kognora/.src/st"
-			],
 			"file_history":
 			[
+				"/home/kognora/.config/sxhkd/sxhkdrc",
+				"/home/kognora/.config/dunst/dunstrc",
+				"/home/kognora/.src/dwm/config.h",
 				"/home/kognora/tmp/st/config.def.h",
 				"/home/kognora/.local/bin/install scripts/install-apps",
 				"/home/kognora/.src/aslstatus/config.h",
 				"/home/kognora/.src/slstatus/config.h",
-				"/home/kognora/.config/sxhkd/sxhkdrc",
 				"/home/kognora/tmp/dwm/config.def.h.rej",
 				"/home/kognora/tmp/dwm/config.h",
-				"/home/kognora/.src/dwm/config.h",
 				"/home/kognora/.src/slstatus/commands/sb-internet",
 				"/home/kognora/Downloads/st/config.def.h",
 				"/home/kognora/.src/st/config.h",
@@ -538,7 +307,7 @@
 			],
 			"find":
 			{
-				"height": 41.0
+				"height": 36.0
 			},
 			"find_in_files":
 			{
@@ -552,6 +321,7 @@
 				"case_sensitive": false,
 				"find_history":
 				[
+					"color"
 				],
 				"highlight": true,
 				"in_selection": false,
@@ -568,86 +338,17 @@
 				"whole_word": false,
 				"wrap": true
 			},
-			"folders":
-			[
-				{
-					"path": "/home/kognora/.src"
-				}
-			],
 			"groups":
 			[
 				{
 					"sheets":
 					[
-						{
-							"buffer": 0,
-							"file": "/home/kognora/.src/st/config.h",
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 25025,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										3621,
-										3621
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"tab_size": 3,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 2418.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 1,
-							"stack_multiselect": false,
-							"type": "text"
-						},
-						{
-							"buffer": 1,
-							"file": "/home/kognora/.src/dwm/config.h",
-							"selected": true,
-							"semi_transient": false,
-							"settings":
-							{
-								"buffer_size": 6925,
-								"regions":
-								{
-								},
-								"selection":
-								[
-									[
-										0,
-										0
-									]
-								],
-								"settings":
-								{
-									"syntax": "Packages/C++/C++.sublime-syntax",
-									"tab_size": 4,
-									"translate_tabs_to_spaces": false
-								},
-								"translation.x": 0.0,
-								"translation.y": 0.0,
-								"zoom_level": 1.0
-							},
-							"stack_index": 0,
-							"stack_multiselect": false,
-							"type": "text"
-						}
 					]
 				}
 			],
 			"incremental_find":
 			{
-				"height": 41.0
+				"height": 36.0
 			},
 			"input":
 			{
@@ -681,11 +382,11 @@
 				"height": 0.0
 			},
 			"pinned_build_system": "",
-			"position": "0,0,0,0,0,0,0,1918,1050,1920,1080,0",
+			"position": "0,0,0,0,0,0,28,1918,1078,1920,1080,0",
 			"project": "",
 			"replace":
 			{
-				"height": 76.0
+				"height": 66.0
 			},
 			"save_all_on_build": true,
 			"select_file":
@@ -723,12 +424,12 @@
 			"show_open_files": false,
 			"show_tabs": true,
 			"side_bar_visible": true,
-			"side_bar_width": 342.0,
+			"side_bar_width": 290.0,
 			"status_bar_visible": true,
 			"template_settings":
 			{
 			},
-			"window_id": 14,
+			"window_id": 16,
 			"workspace_name": ""
 		}
 	],
