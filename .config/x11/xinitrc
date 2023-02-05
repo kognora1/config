@@ -1,6 +1,10 @@
 /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
+exec python3 ~/.src/yt-local/server.py & 
+
 feh --no-fehbg --bg-scale '/home/kognora/.config/wallpaper.jpg' 
+
+nvidia-settings --load-config-only
 
 picom & 
 

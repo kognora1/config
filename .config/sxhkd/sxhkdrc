@@ -12,16 +12,7 @@ XF86MonBrightnessUp
 
 XF86MonBrightnessDown
 	changebrightness down
-
-super + t
-	telegram-desktop
-
-super + e
-	pcmanfm
 	
-super + shift + l
-	slock
-
 super + v
 	clipmenu
 	
@@ -30,3 +21,9 @@ super + shift + s
 
 super + shift + p
 	~/.local/bin/dmenu_powermenu
+
+super + shift + l
+    betterlockscreen -l  
+
+super + e
+	pcmanfm

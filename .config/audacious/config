@@ -1,6 +1,6 @@
 
 [audgui]
-filesel_path=/run/media/kognora/Files/Music
+filesel_path=/mnt/Files/Music
 
 [notify]
 actions=FALSE

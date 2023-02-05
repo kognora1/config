@@ -1,8 +1,9 @@
 {
-	"font_size": 9,
+	"font_size": 8,
 	"ui_scale" : 1.7,
 	"theme": "Adaptive.sublime-theme",
 	"color_scheme": "Catppuccin Frappe.sublime-color-scheme",
+	"font": "Jetbrains Mono",
 	"ignored_packages":
 	[
 		"Vintage",
