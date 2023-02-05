@@ -23,7 +23,7 @@ super + shift + p
 	~/.local/bin/dmenu_powermenu
 
 super + shift + l
-    betterlockscreen -l  
+    slock  
 
 super + e
 	pcmanfm
