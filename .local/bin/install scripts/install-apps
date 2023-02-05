@@ -3,6 +3,6 @@ APPS="xorg-xinit xorg-server libxinerama libxft libx11 webkit2gtk telegram-deskt
 
 pacman -Syuu
 pacman -S --needed -y $APPS
-cp -rf ~/.local/share/themes/Catppuccin-Frappe-Blue /usr/share/themes
-mv ~/.local/bin/install\ scripts/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-mv ~/.local/bin/install\ scripts/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
+cp -rf /home/kognora/.local/share/themes/Catppuccin-Frappe-Blue /usr/share/themes
+mv /home/kognora/.local/bin/install\ scripts/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+mv /home/kognora/.local/bin/install\ scripts/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
