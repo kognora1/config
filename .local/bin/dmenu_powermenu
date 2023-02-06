@@ -11,8 +11,9 @@ lock="lock"
 reset="reset dwm"
 cancel="cancel"
 kill="kill"
+sleep="sleep"
 
-option="$cancel\n$lock\n$reset\n$kill\n$reboot\n$shutdown"
+option="$cancel\n$lock\n$reset\n$kill\n$sleep\n$reboot\n$shutdown"
 
 select="$(echo -e "$option" | $prompt -p "uptime - $uptime")"
 
@@ -31,4 +32,7 @@ case $select in
         ;;
     $kill)
         pkill dwm
+        ;;
+    $sleep)
+         systemctl suspend
 esac

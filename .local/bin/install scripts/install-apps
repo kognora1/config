@@ -1,5 +1,5 @@
 #!/bin/sh
-APPS="xorg-xinit xorg-server libxinerama libxft libx11 webkit2gtk telegram-desktop piper mpv yt-dlp sxiv neovim keepassxc lxappearance qt5ct sxhkd pcmanfm pavucontrol feh fzf picom zathura zathura-pdf-poppler git firefox pamixer polkit-gnome dunst htop progress xarchiver udiskie gvfs file-roller xf86-video-amdgpu zsh spotify-launcher xsel clipnotify blueberry" 
+APPS="xorg-xinit xorg-server libxinerama libxft libx11 webkit2gtk telegram-desktop piper mpv yt-dlp sxiv neovim keepassxc lxappearance qt5ct sxhkd pcmanfm pavucontrol fzf picom zathura zathura-pdf-poppler git firefox pamixer polkit-gnome dunst htop progress xarchiver udiskie gvfs file-roller xf86-video-amdgpu zsh spotify-launcher xsel clipnotify blueberry" 
 
 pacman -Syuu
 pacman -S --needed -y $APPS
