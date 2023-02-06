@@ -2,6 +2,8 @@
 
 exec python3 ~/.src/yt-local/server.py & 
 
+xss-lock -- slock & 
+
 feh --no-fehbg --bg-scale '/home/kognora/.config/wallpaper.jpg' 
 
 nvidia-settings --load-config-only
