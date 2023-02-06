@@ -8,10 +8,11 @@ dwm_pid="$(pidof dwm)"
 shutdown="shutdown"
 reboot="reboot"
 lock="lock"
-logout="reset dwm"
+reset="reset dwm"
 cancel="cancel"
+kill="kill"
 
-option="$cancel\n$logout\n$shutdown\n$reboot\n$lock"
+option="$cancel\n$lock\n$reset\n$kill\n$reboot\n$shutdown"
 
 select="$(echo -e "$option" | $prompt -p "uptime - $uptime")"
 
@@ -23,8 +24,11 @@ case $select in
 		systemctl reboot
 		;;
 	$lock)
-		betterlockscreen -l
+		slock
 		;;
-	$logout)
+	$reset)
 		kill -TERM dwmpid $dwm_pid
+        ;;
+    $kill)
+        pkill dwm
 esac
