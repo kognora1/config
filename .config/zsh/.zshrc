@@ -16,9 +16,6 @@ unsetopt beep
 autoload -Uz compinit
 compinit
 
-# .zcompdum location
-compinit -d $HOME/.config/zsh/zcompdump
-
 ## case-insensitive (uppercase from lowercase) completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 ## case-insensitive (all) completion
