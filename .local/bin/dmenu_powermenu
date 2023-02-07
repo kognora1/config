@@ -10,7 +10,7 @@ reboot="reboot"
 lock="lock"
 reset="reset dwm"
 cancel="cancel"
-kill="kill"
+kill="logout"
 sleep="sleep"
 
 option="$cancel\n$lock\n$reset\n$kill\n$sleep\n$reboot\n$shutdown"
