@@ -1,0 +1,38 @@
+#!/usr/bin/env bash
+
+prompt="dmenu -l 7 "
+
+uptime=$(uptime -p | sed -e 's/up //g')
+dwm_pid="$(pidof dwm)"
+
+shutdown="shutdown"
+reboot="reboot"
+lock="lock"
+reset="reset dwm"
+cancel="cancel"
+kill="logout"
+sleep="sleep"
+
+option="$cancel\n$lock\n$reset\n$kill\n$sleep\n$reboot\n$shutdown"
+
+select="$(echo -e "$option" | $prompt -p "uptime - $uptime")"
+
+case $select in
+	$shutdown)
+		systemctl poweroff
+		;;
+	$reboot)
+		systemctl reboot
+		;;
+	$lock)
+		slock
+		;;
+	$reset)
+		kill -TERM dwmpid $dwm_pid
+        ;;
+    $kill)
+        pkill dwm
+        ;;
+    $sleep)
+         systemctl suspend
+esac
