@@ -1,8 +1,0 @@
-#!/bin/sh
-APPS="xorg-xinit xorg-server libxinerama libxft libx11 webkit2gtk telegram-desktop piper mpv yt-dlp sxiv neovim keepassxc lxappearance qt5ct sxhkd pcmanfm pavucontrol fzf picom zathura zathura-pdf-poppler git firefox pamixer polkit-gnome dunst htop progress xarchiver udiskie gvfs file-roller zsh spotify-launcher xsel clipnotify xclip blueberry" 
-
-pacman -Syuu
-pacman -S --needed -y $APPS
-
-mv /home/kognora/.local/bin/install\ scripts/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-mv /home/kognora/.local/bin/install\ scripts/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
