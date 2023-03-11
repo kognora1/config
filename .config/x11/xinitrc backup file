@@ -1,0 +1,19 @@
+xrandr --output HDMI-1 --mode 1920x1080 --rate 120 --output eDP-1 --off
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+xss-lock -- slock & 
+
+setbg
+
+picom & 
+
+sxhkd &
+
+dunst &
+
+slstatus &
+
+clipmenud &
+
+exec /home/kognora/.local/bin/restartdwm 
