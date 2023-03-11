@@ -27,3 +27,6 @@ super + shift + l
 
 super + e
 	pcmanfm
+	
+super + shift + w
+    setbg
