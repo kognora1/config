@@ -1,0 +1,36 @@
+# Navigation
+cp=copy
+mv=move
+rm=remove
+mkdir=make a directory
+hy=watch history and copy selected command with enter
+ra=ranger
+se=edit .local/bin scripts
+
+# Pacman Commands
+update=update packages
+install=install packages
+remove=remove packages
+purge=purge packages
+autoremove=autoremove orphans
+
+# Editing Files
+e=nvim
+v=nvim
+z=zathura
+dwmh=edit dwm config.h
+sth=edit st config.h
+statush=edit slstatus config.h
+cdwm=compile dwm
+cst=compile st
+cstatus=compile slstatus
+aliasrc=edit aliases
+
+# Youtube Download
+ytdl=download youtube video
+ytadl=download youtube video only audio
+ytt=download youtube thumbnail only
+
+# More Commands
+ka=kill all processes of certain application
+r=rewrite last command
