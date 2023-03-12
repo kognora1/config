@@ -1,0 +1,77 @@
+#!/bin/sh
+
+# Use neovim for vim if present.
+[ -x "$(command -v nvim)" ] && alias vim="nvim" vimdiff="nvim -d"
+
+# Use $XINITRC variable if file exists.
+[ -f "$XINITRC" ] && alias startx="startx $XINITRC"
+
+[ -f "$MBSYNCRC" ] && alias mbsync="mbsync -c $MBSYNCRC"
+
+se() {
+	choice="$(find ~/.local/bin -mindepth 1 -printf '%P\n' | fzf)"
+	[ -f "$HOME/.local/bin/$choice" ] && nvim "$HOME/.local/bin/$choice"
+	;}
+
+# Verbosity and settings that you pretty much just always are going to want.
+alias \
+	cp="cp -iv" \
+	mv="mv -iv" \
+	rm="rm -vI" \
+	bc="bc -ql" \
+	rsync="rsync -vrPlu" \
+	mkdir="mkdir -pv" \
+	ytt="yt --skip-download --write-thumbnail" \
+	ffmpeg="ffmpeg -hide_banner"
+
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi" \
+	ip="ip -color=auto"
+
+# These common commands are just too long! Abbreviate them.
+alias \
+	ka="killall" \
+	g="git" \
+	trem="transmission-remote" \
+	YT="youtube-viewer" \
+	sdn="shutdown -h now" \
+	e="nvim" \
+	v="nvim" \
+	p="pacman" \
+	xi="sudo xbps-install" \
+	xr="sudo xbps-remove -R" \
+	xq="xbps-query" \
+	z="zathura" \
+    ra="ranger"
+
+alias \
+	lf="lfub" \
+	magit="nvim -c MagitOnly" \
+	ref="shortcuts >/dev/null; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/shortcutrc ; source ${XDG_CONFIG_HOME:-$HOME/.config}/shell/zshnameddirrc" \
+	weath="less -S ${XDG_CACHE_HOME:-$HOME/.cache}/weatherreport" \
+
+alias update="sudo pacman -Syu"
+alias install="sudo pacman -S"
+alias remove="sudo pacman -R"
+alias purge="sudo pacman -Rscn"
+alias dwmh="nvim ~/.src/dwm/config.h"
+alias sth="nvim ~/.src/st/config.h"
+alias statush="nvim ~/.src/aslstatus/config.h"
+alias ls="ls --color=auto"
+alias autoremove="sudo pacman -Rcns $(pacman -Qdtq)"
+alias cdwm="cd ~/.src/dwm && sudo make install"
+alias cst="cd ~/.src/st && sudo make install"
+alias cstatus="cd ~/.src/aslstatus && sudo make install"
+alias ll="ls -al"
+alias dots="/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME"
+alias aliasrc="vim .config/zsh/aliasrc"
+alias files="cd /mnt/Files"
+alias backup="cd /mnt/Backup"
+alias windows="cd /mnt/Windows"
+alias hy="history 1 -1 | cut -c 8- | sort | uniq | fzf | tr -d '\n' | xclip -sel c"
+alias ytdl="yt-dlp -f bestvideo+bestaudio -o '%(title)s.%(ext)s' --external-downloader=aria2c"
+alias ytadl="yt-dlp -x -f bestaudio -o '%(title)s.%(ext)s' --external-downloader=aria2c"
