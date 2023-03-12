@@ -1,0 +1,8 @@
+#!/bin/bash
+var=" $(xset -q | grep -i "led mask" | grep -o "....1...")"
+if [ -z $var ]
+then
+    echo "Layout:us"
+else
+    echo "Layout:gr"
+fi
