@@ -36,7 +36,7 @@ export HISTFILE="$XDG_DATA_HOME/history"
 export MBSYNCRC="$XDG_CONFIG_HOME/mbsync/config"
 export ELECTRUMDIR="$XDG_DATA_HOME/electrum"
 export QT_QPA_PLATFORMTHEME="qt5ct" 
-export ZSHRC="$HOME/.config/zsh/zshrc"
+export ZSHRC="$HOME/.config/zsh/.zshrc"
 
 # Other program settings:
 export DICS="/usr/share/stardict/dic/"
