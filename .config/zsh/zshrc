@@ -24,6 +24,7 @@ zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}'
 ## case-insensitive,partial-word and then substring completion
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}' 'r:|[._-]=* r:|=*' 'l:|=* r:|=*'
 
+bindkey -e
 bindkey '^H' backward-kill-word
 bindkey '5~' kill-word
 bindkey "^[[1;5C" forward-word
