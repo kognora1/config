@@ -1,6 +1,6 @@
 #!/bin/sh
 APPS="xorg-xinit xorg-server libxinerama libxft libx11 webkit2gtk xorg-xrandr base base-devel imagemagick
-mpv yt-dlp sxiv keepassxc lxappearance qt5ct xss-lock slock gnome-disk-utility feh wget ntfs-g jq ttf-font-awesome
+mpv yt-dlp sxiv keepassxc lxappearance qt5ct xss-lock slock gnome-disk-utility feh wget ntfs-3g jq ttf-font-awesome
 sxhkd pcmanfm pavucontrol fzf picom zathura zathura-pdf-poppler firefox pamixer aria2 tlp unzip xdg-user-dirs
 polkit-gnome dunst htop progress udiskie gvfs zsh spotify-launcher xsel clipnotify xclip maim os-prober" 
 
