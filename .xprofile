@@ -1,0 +1,15 @@
+#!/bin/sh
+
+xrandr --output HDMI-1 --mode 1920x1080 --rate 120 --output eDP-1 --off --dpi 96
+
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
+
+xss-lock -- slock &
+
+autostart="slstatus clipmenud dunst sxhkd picom setbg"
+
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done
+
+exec ~/.local/bin/restartdwm 
