@@ -1,17 +1,15 @@
 #!/bin/sh
 
-# xinitrc runs automatically when you run startx.
+xrandr --output HDMI-1 --mode 1920x1080 --rate 120 --output eDP-1 --off --dpi 96
 
-# There are some small but important commands that need to be run when we start
-# the graphical environment. There is a link to this file in ~/.xprofile
-# because that file is run automatically if someone uses a display manager
-# (login screen) and so they are needed there. To prevent doubling up commands,
-# I source them here with the line below.
+/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
-if [ -f "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile" ]; then
-	. "${XDG_CONFIG_HOME:-$HOME/.config}/x11/xprofile"
-else
-	. "$HOME/.xprofile"
-fi
+xss-lock -- slock &
 
-ssh-agent dwm
+autostart="slstatus clipmenud dunst sxhkd picom setbg"
+
+for program in $autostart; do
+	pidof -s "$program" || "$program" &
+done
+
+exec ~/.local/bin/restartdwm
