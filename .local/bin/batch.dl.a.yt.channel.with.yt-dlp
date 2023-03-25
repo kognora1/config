@@ -1,3 +1,5 @@
 #!/bin/bash
 
-yt-dlp -f 'bv[height=1080][ext=mp4]+ba[ext=m4a]' --embed-thumbnail --embed-metadata --download-archive Bugswriter.txt https://www.youtube.com/@bugswriter_/videos -o '%(channel)s/%(title)s.%(ext)s' --external-downloader=aria2c
+yt-dlp -f 'bv[height=1080][ext=mp4]+ba[ext=m4a]' --embed-thumbnail --embed-metadata --download-archive Youtuber.txt https://www.youtube.com/youtubeprofile -o '%(channel)s/%(title)s.%(ext)s' --external-downloader=aria2c
+
+exit
