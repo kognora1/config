@@ -7,5 +7,7 @@ polkit-gnome dunst htop progress udiskie gvfs zsh spotify-launcher xsel clipnoti
 pacman -Syuu
 pacman -S --needed -y $APPS
 
-mv /home/kognora/.local/bin/install\ scripts/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
-mv /home/kognora/.local/bin/install\ scripts/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
+mv /home/kognora/.local/bin/50-mouse-acceleration.conf /etc/X11/xorg.conf.d/50-mouse-acceleration.conf
+mv /home/kognora/.local/bin/00-keyboard.conf /etc/X11/xorg.conf.d/00-keyboard.conf
+
+exit
